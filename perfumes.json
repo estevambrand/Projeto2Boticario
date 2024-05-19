@@ -1,0 +1,28 @@
+[
+  
+  {
+    "imagem": "imgjson/PerfumeFloral.jpg",
+    "produto": "Perfume Floral",
+    "descricao": "Perfume com notas florais de jasmim e rosa, ideal para uso diário.",
+    "preco": 199.99
+  },
+  {
+    "imagem": "imgjson/PerfumeAmadeirado.jpg",
+    "produto": "Perfume Amadeirado",
+    "descricao": "Perfume com notas amadeiradas e especiarias, perfeito para ocasiões especiais.",
+    "preco": 249.99
+  },
+  {
+    "imagem": "imgjson/PerfumeCitrico.jpg",
+    "produto": "Perfume Cítrico",
+    "descricao": "Perfume com notas frescas de limão e bergamota, ideal para o verão.",
+    "preco": 179.99
+  },
+  {
+    "imagem": "imgjson/PerfumeGourmand.jpg",
+    "produto": "Perfume Gourmand",
+    "descricao": "Perfume com notas doces e suaves de baunilha e caramelo, uma fragrância deliciosa.",
+    "preco": 219.99
+  }
+]
+

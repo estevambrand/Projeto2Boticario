@@ -1,0 +1,27 @@
+[
+  {
+    "imagem": "imgjson/MascaradeCíliosVolume.jpg",
+    "produto": "Máscara de Cílios Volume",
+    "descricao": "Máscara de cílios proporciona volume, alongamento e resistente.",
+    "preco": 49.99
+  },
+  {
+    "imagem": "imgjson/BatomLiquidoMatte.jpg",
+    "produto": "Batom Líquido Matte",
+    "descricao": "Batom líquido com acabamento matte, longa duração e cores vibrantes.",
+    "preco": 39.99
+  },
+  {
+    "imagem": "imgjson/PerfumeGourmand.jpg",
+    "produto": "Perfume Gourmand",
+    "descricao": "Perfume com notas doces de baunilha e caramelo, uma fragrância deliciosa.",
+    "preco": 219.99
+  },
+  {
+    "imagem": "imgjson/CremeHidratanteFacial.jpg",
+    "produto": "Creme Hidratante Facial",
+    "descricao": "Creme hidratante com ácido hialurônico, ideal para todos as peles.",
+    "preco": 99.99
+  }
+]
+

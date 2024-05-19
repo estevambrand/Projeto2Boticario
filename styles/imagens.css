@@ -1,0 +1,148 @@
+
+  .menu__botao {
+    position: relative;
+    background-color: var(--cor-de-fundo);
+    border: none;
+    cursor: pointer;
+    padding: none;
+  }
+  
+  .menu-container{
+    position: relative;
+    /* top: 100%; */
+    left: 0.4em;
+    /* width: 100%; */
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+    justify-content: space-around;
+
+  }
+  
+  /* .menu-container.active {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    transition: height 0.5s ease;
+  } */
+
+  .menu-container-lista{
+    display: flex;
+
+  }
+
+  .menu-container-img1{
+    justify-content: space-around;
+    display: row;
+  }
+
+
+  .novidades-background .menu-container.active{
+    background-color: #c1666b;
+  }
+  
+  .perfumes-background .menu-container.active {
+    background-color: #aab6c4;
+  }
+  
+  .maquiagens-background .menu-container.active{
+    background: linear-gradient(to right, #c95f7d, #f7c0dc);
+  }
+  
+  .promocoes-background .menu-container.active{
+    background: linear-gradient(to right, #fefefe, #f7d08d);
+  }
+  
+
+
+.imagens{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.imagens__produtos__perfume{
+    width: 100%;
+    height: auto;
+
+}
+
+.texto__produto1{
+    position: absolute;
+    top: 17%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: var(--branco);
+    font-family: var(--fonte-imagens);
+    text-transform: uppercase;
+    font-size: 6vw;
+    font-weight: 300;
+    
+}
+
+.texto__produto2{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: var(--branco);
+    font-family: var(--fonte-imagens);
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 300;
+    
+}
+
+.texto__produto3{
+    position: absolute;
+    top: 50%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    color: var(--preto);
+    font-family: var(--fonte-imagens);
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 300;
+    
+}
+
+.texto__produto4{
+    position: absolute;
+    top: 20%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    color: var(--preto);
+    font-family: var(--fonte-imagens);
+    text-transform: uppercase;
+    font-size: 4.4vw;
+    font-weight: 300;
+    
+}
+
+.texto__produto5{
+    position: absolute;
+    top: 40%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    color: var(--preto);
+    font-family: var(--fonte-imagens);
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 500;
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    .menu-container-img{
+        max-width: 100px;
+        max-height: 100px;
+      }
+}
+
+
+.blue-background{
+  overflow: hidden;
+}

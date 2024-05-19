@@ -1,0 +1,102 @@
+.corpo{
+
+    width: 100%;
+    height: 100vh;
+    background: var(--cor-de-fundo);
+    transition: background 0.5s;
+}
+
+.corpo.active{
+    background: #272727;
+    .imagens__produtos__perfume{
+        filter: brightness(0.65);
+      }
+    .cabecalho, .contatos{
+        filter: brightness(0.65);
+    }
+
+    .topicos {
+        filter: brightness(0.8);
+    }
+
+    .novidades-background .menu-container.active{
+        filter: brightness(0.87);
+      }
+      
+      .perfumes-background .menu-container.active {
+        filter: brightness(0.87);
+      }
+      
+      .maquiagens-background .menu-container.active{
+        filter: brightness(0.87);
+      }
+      
+      .promocoes-background .menu-container.active{
+        filter: brightness(0.87);
+      }
+
+    .lista-rodapé__link{
+        color: var(--cor-de-fundo);
+        filter: brightness(0.65);
+    }
+
+    .black-theme{
+        color: var(--cor-de-fundo);
+        filter: brightness(0.65);  
+    }
+
+    .menu-button{
+        background: #272727;
+    }
+}
+
+.tudo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.btnTemaEscuro{
+    margin-left: 1em;
+    display: flex;
+    width: 40px;
+    height: 22.5px;
+    border: 1.25px solid var(--roxo-claro);
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
+    align-items: flex-end;
+
+}
+
+.btnTemaEscuro::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background:var(--roxo-escuro);
+    border-radius: 50%;
+    top: 13.75%;
+    left: 1.25px;
+    transform: translateY(-9%);
+    transition: left 0.5s;
+}
+
+.btnTemaEscuro.active::before{
+    left:17.5px;
+    
+}
+
+.tema__Escuro{
+    font-size: 18px;
+    color: var(--cinza);
+}
+
+@media screen and (min-width: 1380px){
+.btnTemaEscuro.active:hover{
+    filter: brightness(9.0);
+}
+    .btnTemaEscuro:hover{
+        filter: brightness(0.0);
+        
+    }   
+}

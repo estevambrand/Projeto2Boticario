@@ -1,0 +1,27 @@
+[
+  {
+    "imagem": "imgjson/BaseLiquidaMatte.jpg",
+    "produto": "Base Líquida Matte",
+    "descricao": "Base líquida com acabamento matte e alta cobertura, disponível em diversas tonalidades.",
+    "preco": 89.99
+  },
+  {
+    "imagem": "imgjson/PaletadeSombras.jpg",
+    "produto": "Paleta de Sombras",
+    "descricao": "Paleta de sombras com 12 cores altamente pigmentadas e de longa duração.",
+    "preco": 129.99
+  },
+  {
+    "imagem": "imgjson/MascaradeCíliosVolume.jpg",
+    "produto": "Máscara de Cílios Volume",
+    "descricao": "Máscara de cílios proporciona volume, alongamento e resistente.",
+    "preco": 49.99
+  },
+  {
+    "imagem": "imgjson/BatomLiquidoMatte.jpg",
+    "produto": "Batom Líquido Matte",
+    "descricao": "Batom líquido com acabamento matte, longa duração e cores vibrantes.",
+    "preco": 39.99
+  }
+]
+

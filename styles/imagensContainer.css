@@ -1,0 +1,126 @@
+
+#produtos-container-novidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    
+  }
+
+  #produtos-container-perfumes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    
+  }
+
+  #produtos-container-maquiagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    
+  }
+
+  #produtos-container-promocoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    max-height: 200px;
+    
+  }
+  
+  .produto {
+    background-color:var(--cor-de-fundo);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    
+  }
+  
+  .produto img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  
+  .produto .descricao {
+    padding: 10px;
+    
+  }
+  
+  .produto .preco{
+    background-color:var( --roxo-escuro);
+    color: var(--branco);
+    padding: 10px;
+    font-weight: 700;
+    
+  }
+  .preco{
+    justify-content: space-between;
+    font-size: 20px;
+    color: var(--branco);
+  }
+  .precoCheio {
+    font-size: 15px;
+    text-decoration: line-through;
+    color: var(--cinza-muito-claro);
+    
+  }
+
+  .titulo-preco-container{
+    font-size: 20px;
+    color: var(--preto);
+    font-weight: 700;
+    font-family:  var( --fonte-principal);
+  }
+
+  .paragrafo-preco-container{
+    font-size: 12px;
+    color: var(--preto);
+    font-weight: 300;
+    font-family:  var( --fonte-principal);
+  }
+
+  .link{
+    text-decoration: none;
+  }
+
+  .img-produtos{
+    max-width: 210px;
+    max-height: 210px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .produto{
+      width: 20%;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .img-produtos{
+      max-width: 85px;
+      max-height: 85px;
+    }
+    .produto{
+      width: 40%;
+    }
+
+    .paragrafo-preco-container{
+      display: none;
+    }
+
+    .titulo-preco-container{
+      font-size: 16px;
+      color: var(--preto);
+      font-weight: 700;
+      font-family:  var( --fonte-principal);
+    }
+
+  }

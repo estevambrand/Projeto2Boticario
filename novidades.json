@@ -1,0 +1,27 @@
+[
+  {
+    "imagem": "imgjson/CremeHidratanteFacial.jpg",
+    "produto": "Creme Hidratante Facial - 150mL",
+    "descricao": "Creme hidratante com ácido hialurônico, ideal para todos os tipos de peles. Novo Volume: 150mL",
+    "preco": 99.99
+  },
+  {
+    "imagem": "imgjson/SerumAntiIdade.png",
+    "produto": "Sérum Anti-Idade",
+    "descricao": "Sérum com vitamina C, ácido hialurônico e retinol, reduz rugas linhas de expressão e linhas finas, trazendo frescor e toda elegância.",
+    "preco": 159.99
+  },
+  {
+    "imagem": "imgjson/MascaraFacialDetox.jpg",
+    "produto": "Máscara Facial Detox",
+    "descricao": "Máscara facial com argila verde, purifica e revitaliza a pele.",
+    "preco": 49.99
+  },
+  {
+    "imagem": "imgjson/EsfolianteCorporal.jpg",
+    "produto": "Esfoliante Corporal",
+    "descricao": "Esfoliante corporal com partículas naturais, deixa a pele suave e renovada.",
+    "preco": 69.99
+  }
+]
+

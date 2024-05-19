@@ -1,0 +1,44 @@
+@import url("./styles/topicos.css");
+@import url("./styles/contatos.css");
+@import url("./styles/rodape.css");
+@import url("./styles/imagens.css");
+@import url("./styles/header.css");
+@import url("./styles/blacktheme.css");
+@import url("./styles/imagensContainer.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Tulpen+One&family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Outfit:wght@100..900&display=swap');
+
+
+:root{
+  --cor-de-fundo: #fffaf8;
+  --branco: #f1f1f3;
+  --roxo-claro: #AD88C6;
+  --degrade: linear-gradient(90.54deg, #FFE3ED 35.49%, #9BE3DE 165.37%);
+  --fonte-principal: "Outfit";
+  --fonte-titulos:"Cormorant SC";
+  --roxo-escuro: #886ba3;
+  --fonte-secundaria: "Outfit";
+  --fonte-imagens:"Cormorant SC";
+  --preto: #000000;
+  --cinza: #474746;
+  --cinza-claro: #858585;
+  --cinza-muito-claro: #bbbbbb;
+}
+
+
+body{
+  background-color: var(--cor-de-fundo);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
+
+  
+}
+.observacoes{
+  font-family: var(--fonte-secundaria);
+  color: var(--cinza-claro);
+  text-align: center
+}
+
